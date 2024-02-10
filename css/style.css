@@ -266,7 +266,7 @@ main a{
 
 .article-template{
     width: 100%;
-    padding: 20px 10;
+    padding: 20px 10px;
 }
 
 .article-template h3{
@@ -526,30 +526,29 @@ main a{
 
 #media ul p{
     font-size: 18px;
-    width: 60%;
-    /* box-shadow: 0 0 10px rgb(103, 163, 158); */
+    /* width: 60%; */
+    box-shadow: 0 0 10px rgb(103, 163, 158);
 }
 
 .media-header{
     background-color: #f5f7f8;
-    width: 95%;
     padding: 10px 20px;
 }
 
 .media-link{
     background-color: #f5f7f8;
-    width: 95%;
+    /* width: 95%; */
     padding: 10px 20px;
 }
 
 .media-colunm{
     background-color: #f5f7f8;
-    width: 95%;
+    /* width: 95%; */
     padding: 10px 20px;
 }
 
 .media-size{
-    width: 90%;
+    /* width: 90%; */
 }
 
 #logo{
@@ -568,7 +567,7 @@ main a{
     font-weight: bold;
     font-size: 60px;
     padding: 10px 20px;
-    width: 70%;
+    /* width: 70%; */
 }.logo-content p{
     font-size: 20px;
     padding: 10px 20px;
@@ -577,14 +576,14 @@ main a{
 #logo ul{
     font-weight: bold;
     font-size: 30px;
-    width: 70%;
+    /* width: 70%; */
     gap: 20px;
     padding: 10px 20px;
 }
 
 #logo ul h3{
     margin-top: 2rem;
-    width: 120%;
+    /* width: 120%; */
     padding-left: 1rem;
 }
 
@@ -607,7 +606,7 @@ main a{
     color: #ededed;
     font-weight: bold;
     font-size: 50px;
-    width: 50%;
+    /* width: 50%; */
 }
 
 
@@ -676,4 +675,407 @@ main a{
 #style p{
     color: #ededed;
     margin-top: 1rem;
+}
+
+@media screen and (max-width:992px) {
+    nav ul{
+        gap: 5px;
+    }
+
+    .center-link ul{
+        gap: 30px;
+    }
+
+    #about input{
+        position: relative;
+        left: 200px;
+    }
+
+    #about img{
+        width: 100%;
+    }
+
+    #testimonial h2{
+        position: relative;
+        right: 150px;
+    }
+
+    #testimonial p{
+        position: relative;
+        right: 150px;
+    }
+
+    .online-header img{
+        width: 100%;
+    }
+
+    .online-header{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 1rem;
+    }
+
+    .online-content{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 1rem;
+    }
+
+    .online-content img{
+        width: 100%;
+    }
+
+    #online input{
+        position: relative;
+        left: 200px;
+    }
+
+    #link h3{
+        font-size: 30px;
+    }
+
+    .select-header h2{
+        font-size: 30px;
+    }
+
+    #colunm h2{
+        font-size: 30px;
+        padding: 5px;
+    }
+
+    .logo-content h2{
+        font-size: 30px;
+    }
+
+    #logo ul{
+        font-size: 20px;
+    }
+
+    .style-size input{
+        width: 150%;
+    }
+
+    .style-header h3{
+        font-size: 30px;
+    }
+
+    .style-content{
+        gap: 20px;
+    }
+
+    #online h2{
+        font-size: 30px;
+    }
+
+    
+}
+
+@media screen and (max-width:768px) {
+    .center-link ul{
+        gap: 20px;
+    }
+
+    .about-header h1{
+        font-size: 30px;
+    }
+
+    .about-header p{
+        font-size: 15px;
+    }
+
+    .article-link h3{
+        font-size: 15px;
+    }
+
+    .article-template h3{
+        font-size: 15px;
+    }
+
+    .article-center h3{
+        font-size: 15px;
+    }
+
+    #content{
+        gap: 30px;
+    }
+
+    #testimonial h2{
+        position: relative;
+        left: 40px;
+        font-size: 30px;
+    }
+
+    #testimonial p{
+        position: relative;
+        left: 40px;
+        font-size: 15px;
+    }
+
+    #testimonial input{
+        position: relative;
+        left: 80px;
+        bottom: 30px;
+    }
+
+    #online input{
+        position: relative;
+        left: 100px;
+    }
+
+    .media-content h2{
+        font-size: 30px;
+    }
+
+    #media ul p{
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    #style a{
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    .center-link ul{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+        font-size: 12px;
+    }
+
+    .about-header h1{
+        font-size: 20px;
+    }
+
+    .about-content p{
+        font-size: 12px;
+    }
+
+    .about-header p{
+        font-size: 12px;
+    }
+
+    #about input{
+        position: relative;
+        left: 50px;
+        padding: 10px 20px;
+    }
+
+    .article-content h2{
+        font-size: 20px;
+    }
+
+    .content-header ul{
+        padding-left: 4rem;
+    }
+
+    #content{
+        gap: 15px;
+    }
+
+    .content-header input{
+        font-size: 15px;
+        position: relative;
+        left: 100px;
+        padding: 10px 20px;
+    }
+
+    #testimonial input{
+        font-size: 15px;
+        padding: 10px 20px;
+        position: relative;
+        left: 70px;
+        bottom: 20px;
+    }
+
+    #testimonial h2{
+        position: relative;
+        left: 20px;
+        font-size: 20px;
+    }
+
+    #testimonial p{
+        position: relative;
+        left: 20px;
+        font-size: 15px;
+    }
+
+    #online h2{
+        font-size: 20px;
+    }
+
+    
+    #online p{
+        font-size: 15px;
+    }
+
+    .online-header{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 200%;
+    }
+
+    .online-content{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 200%;
+        margin-bottom: 5rem;
+    }
+
+    #online input{
+        font-size: 15px;
+        padding: 10px 20px;
+        position: relative;
+        left: 70px;
+    }
+
+    #select img{
+        width: 100%;
+    }
+
+    .select-header h2{
+        width: initial;
+        font-size: 20px;
+    }
+
+    #select{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .select-header input{
+         font-size: 15px;
+        padding: 10px 20px;
+
+    }
+
+    #colunm{
+        /* flex-direction: column-reverse; */
+        gap: 20px;
+    }
+
+    #colunm h2{
+        font-size: 20px;
+    }
+
+    .media-content h2{
+        font-size: 20px;
+    }
+
+    #media ul{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .logo-content h2{
+        font-size: 20px;
+    }
+
+    .logo-content p{
+        font-size: 15px;
+    }
+
+    .logo-content h3{
+        font-size: 15px;
+    }
+
+    #logo{
+        gap: 50px;
+    }
+
+    #logo ul h3{
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .style-header h3{
+        font-size: 20px;
+    }
+
+    .style-content{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .style-link{
+        flex-direction: column-reverse;
+    }
+
+    #style p{
+        font-size: 12px;
+    }
+
+    
+}
+
+@media screen and (max-width:480px) {
+    #about input{
+        position: relative;
+        left: 10px;
+    }
+
+    .center-link ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .content-header input{
+        position: relative;
+        left: 50px;
+    }
+
+    #testimonial input{
+        position: relative;
+        left: 20px;
+        bottom: 10px;
+    }
+
+    .online-content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-right: 4rem;
+    }
+
+    #online input{
+        position: relative;
+        left: 5px;
+    }
+
+    #colunm{
+        gap: 2px;
+    }
+
+    #media ul{
+        padding-left: 2rem;
+    }
+
+    #logo{
+        gap: 15px;
+    }
+
+    .style-content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .article-content h2{
+        font-size: 15px;
+        width: 40%;
+    }
+
+    .article-center p{
+        font-size: 10px;
+    }
+
+    .article-sale p{
+        font-size: 10px;
+    }
+
+    .style-header h3{
+        padding-right: 2rem;
+    }
+
+    
 }
